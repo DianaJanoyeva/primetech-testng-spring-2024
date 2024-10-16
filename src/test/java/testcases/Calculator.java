@@ -10,7 +10,7 @@ public class Calculator {
 
     @Test
     public void calculatorTest(){
-        System.out.println("hey");
+        System.out.println("Hey");
     }
 
     @Test
@@ -18,12 +18,6 @@ public class Calculator {
         System.out.println("Hello");
     }
 
-    @Test
-    public void loginWithValidCredentials(){
-        WebDriver driver = new ChromeDriver();
-        driver.get("sauce demo url");
-        WebElement username = driver.findElement(By.xpath("xpath"));
-    }
 
 
 }
